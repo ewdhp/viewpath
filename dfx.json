@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "viewpath_backend": {
+      "main": "src/viewpath_backend/main.mo",
+      "type": "motoko"
+    },
+    "viewpath_frontend": {
+      "dependencies": [
+        "viewpath_backend"
+      ],
+      "source": [
+        "src/viewpath_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "viewpath_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
