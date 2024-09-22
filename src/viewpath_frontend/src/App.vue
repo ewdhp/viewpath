@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { viewpath_backend } from 'declarations/viewpath_backend/index';
+import ViewNavigator from './ViewNavigator.vue';
 let greeting = ref('');
 
 async function handleSubmit(e) {
@@ -24,5 +25,6 @@ async function handleSubmit(e) {
       <button type="submit">Click Me!</button>
     </form>
     <section id="greeting">{{ greeting }}</section>
+    <ViewNavigator />
   </main>
 </template>
