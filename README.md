@@ -1,6 +1,6 @@
 # Dynamic View Navigation System
 
-This project is a dynamic view navigation system built with Vue.js and Motoko, managed by DFX. It allows for the dynamic rendering of components based on user interactions and navigation paths. **This documentation is provided in English.**
+This project is a dynamic view navigation system built with Vue.js and Motoko, managed by DFX. It allows for the dynamic rendering of components based on user interactions and navigation paths.
 
 You can add any number of components and arrange them with CSS, add HTML as a notification, inject JavaScript code, or add an entire view to each node. The views are stored in a tree structure, but you can navigate as if it were a network of proxy views.
 
